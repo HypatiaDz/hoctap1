@@ -624,14 +624,13 @@
     <!-- MODE 5: AUTO CLOZE GENERATOR -->
     <div id="viewAutoCloze" class="view-page">
       <div class="score-stats-card">
-        <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
-          <span style="font-weight: 700;">Chọn kiểu đục lỗ:</span>
-          <select id="autoClozeType" style="padding: 8px 14px; border-radius: 8px; background: rgba(0,0,0,0.3); color: var(--text); border: 1px solid var(--border); font-weight: 600;">
-            <option value="prep">🎯 Đục lỗ Giới từ & Liên từ (in, at, to, with, however...)</option>
-            <option value="vocab">🎯 Đục lỗ Từ vựng & Thuật ngữ quan trọng</option>
-            <option value="random">🎲 Đục lỗ Ngẫu nhiên (20% các từ trong đoạn)</option>
-          </select>
-          <button class="action-btn" style="background: var(--primary); color: white;" onclick="generateAutoClozeTest()">⚡ Tạo Đề Đục Lỗ Mới Ngay</button>
+        <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; flex-wrap: wrap; gap: 12px;">
+          <div>
+            <span style="font-weight: 700;">Tiến độ đục lỗ: </span>
+            <span class="score-badge" id="autoScoreDisplay">0 / 6 câu đúng</span>
+            <span style="color: var(--text-muted); font-size: 0.85rem; margin-left: 8px;">(Đục lỗ chia đều xuyên suốt tất cả các đoạn)</span>
+          </div>
+          <button class="action-btn" style="background: var(--primary); color: white; padding: 10px 22px; font-size: 0.95rem; font-weight: 800; box-shadow: 0 4px 15px rgba(14, 165, 233, 0.4);" onclick="generateAutoClozeTest()">🎲 Đục Lỗ Mới (Chia Đều Cả 3 Đoạn)</button>
         </div>
       </div>
 
@@ -1056,57 +1055,88 @@
       res.classList.add('show');
     }
 
-    // ================= MODE 5: AUTO CLOZE GENERATOR =================
+        // ================= MODE 5: AUTO CLOZE GENERATOR =================
     let autoClozeQuestions = [];
+    let autoAnswers = {};
 
     function generateAutoClozeTest() {
       const p = getCurrentPassage();
-      const type = document.getElementById('autoClozeType').value;
-      document.getElementById('autoPassageTitle').textContent = p.title + ' (Đề Tự Sinh)';
+      document.getElementById('autoPassageTitle').textContent = p.title + ' (Đục Lỗ Đều Các Đoạn)';
 
-      const words = p.originalText.split(/(\s+|[.,!?;:()])/);
-      let maskedText = '';
+      const paragraphs = p.originalText.split('\n\n').filter(s => s.trim().length > 0);
       autoClozeQuestions = [];
+      autoAnswers = {};
       let blankCount = 1;
+      let finalParagraphs = [];
 
-      const preps = ['in', 'on', 'at', 'to', 'for', 'with', 'from', 'by', 'about', 'over', 'into', 'and', 'but', 'so', 'because', 'although', 'such', 'more', 'than'];
+      const prepsList = ['in', 'on', 'at', 'to', 'for', 'with', 'from', 'by', 'about', 'over', 'into', 'under', 'as', 'than', 'such', 'more', 'before', 'after', 'because', 'although', 'however', 'furthermore', 'which', 'that', 'between', 'during', 'through'];
 
-      for (let i = 0; i < words.length; i++) {
-        const w = words[i];
-        const cleanWord = w.toLowerCase().replace(/[^a-z]/g, '');
+      paragraphs.forEach((para, pIdx) => {
+        const tokens = para.split(/(\s+|[.,!?;:()"])/);
+        const wordTokens = [];
 
-        let shouldMask = false;
-        if (cleanWord.length > 0 && blankCount <= 6) {
-          if (type === 'prep' && preps.includes(cleanWord)) {
-            shouldMask = (Math.random() < 0.45);
-          } else if (type === 'vocab' && cleanWord.length >= 6) {
-            shouldMask = (Math.random() < 0.35);
-          } else if (type === 'random') {
-            shouldMask = (cleanWord.length >= 4 && Math.random() < 0.25);
+        tokens.forEach((tok, tIdx) => {
+          const clean = tok.replace(/[^a-zA-Z]/g, '').toLowerCase();
+          if (clean.length >= 2) {
+            wordTokens.push({
+              tokenIndex: tIdx,
+              raw: tok,
+              clean: clean,
+              isPrep: prepsList.includes(clean),
+              isVocab: (clean.length >= 5 && !prepsList.includes(clean))
+            });
+          }
+        });
+
+        // Pick 1 preposition/grammar and 1 vocabulary token for THIS paragraph
+        const prepCandidates = wordTokens.filter(w => w.isPrep);
+        const vocabCandidates = wordTokens.filter(w => w.isVocab);
+
+        const chosenTokens = [];
+        if (prepCandidates.length > 0) {
+          const pickedPrep = prepCandidates[Math.floor(Math.random() * prepCandidates.length)];
+          chosenTokens.push(pickedPrep);
+        }
+        if (vocabCandidates.length > 0) {
+          const pickedVocab = vocabCandidates[Math.floor(Math.random() * vocabCandidates.length)];
+          if (!chosenTokens.some(ct => ct.tokenIndex === pickedVocab.tokenIndex)) {
+            chosenTokens.push(pickedVocab);
           }
         }
 
-        if (shouldMask && blankCount <= 6) {
-          const target = cleanWord;
-          const distractors = generateDistractors(target, type);
+        // If paragraph didn't get 2 tokens, pick from remaining
+        if (chosenTokens.length < 2 && wordTokens.length >= 2) {
+          const remaining = wordTokens.filter(w => !chosenTokens.some(ct => ct.tokenIndex === w.tokenIndex));
+          if (remaining.length > 0) {
+            chosenTokens.push(remaining[Math.floor(Math.random() * remaining.length)]);
+          }
+        }
+
+        // Sort chosen tokens by tokenIndex so blanks appear in natural reading order
+        chosenTokens.sort((a, b) => a.tokenIndex - b.tokenIndex);
+
+        chosenTokens.forEach(ct => {
+          ct.blankId = blankCount++;
+          const target = ct.clean;
+          const distractors = generateDistractors(target, ct.isPrep ? 'prep' : 'vocab');
           const options = shuffleArray([target, ...distractors]);
           const correctIdx = options.indexOf(target);
 
           autoClozeQuestions.push({
-            blankId: blankCount,
+            blankId: ct.blankId,
             target: target,
+            paragraphNum: pIdx + 1,
             options: options.map((opt, oIdx) => `${String.fromCharCode(65 + oIdx)}. ${opt}`),
             correct: correctIdx
           });
 
-          maskedText += `<span class="cloze-blank" id="blank-auto-${blankCount}" onclick="focusQuestion('q-auto-${blankCount}')">[ (${blankCount}) _______ ]</span>`;
-          blankCount++;
-        } else {
-          maskedText += w;
-        }
-      }
+          tokens[ct.tokenIndex] = `<span class="cloze-blank" id="blank-auto-${ct.blankId}" onclick="focusQuestion('q-auto-${ct.blankId}')">[ (${ct.blankId}) _______ ]</span>`;
+        });
 
-      document.getElementById('autoPassageText').innerHTML = maskedText;
+        finalParagraphs.push(tokens.join(''));
+      });
+
+      document.getElementById('autoPassageText').innerHTML = finalParagraphs.join('<br><br>');
 
       // Render question cards
       const qContainer = document.getElementById('autoQuestionsList');
@@ -1128,22 +1158,30 @@
 
         card.innerHTML = `
           <div class="q-header">
-            <span class="q-num">Chỗ trống (${q.blankId})</span>
-            <span style="font-size:0.75rem; color:var(--text-muted);">Tự sinh ngẫu nhiên</span>
+            <span class="q-num">Chỗ trống (${q.blankId}) - Đoạn ${q.paragraphNum}</span>
+            <span style="font-size:0.75rem; color:var(--text-muted);">Đã chia đều các đoạn</span>
           </div>
           <div class="q-prompt">Chọn từ thích hợp để điền vào vị trí (${q.blankId}):</div>
           <div class="options-list">${optionsHtml}</div>
         `;
         qContainer.appendChild(card);
       });
+
+      updateAutoStats();
     }
 
     function generateDistractors(target, type) {
-      const prepPool = ['in', 'on', 'at', 'to', 'for', 'with', 'from', 'by', 'about', 'over', 'into'];
-      const vocabPool = ['healthy', 'active', 'suitable', 'prevent', 'develop', 'increase', 'important', 'different', 'infectious', 'protect', 'regularly', 'creative'];
+      const prepPool = ['in', 'on', 'at', 'to', 'for', 'with', 'from', 'by', 'about', 'over', 'into', 'under', 'than', 'such', 'between', 'through', 'without', 'before', 'after', 'because', 'although', 'however', 'furthermore', 'therefore'];
+      const vocabPool = [
+        'expectancy', 'increased', 'nutrients', 'vitamins', 'suitable', 'regularly', 'exercise', 'healthy', 'active', 'important', 'prevent', 'screens', 'repetitive',
+        'organisms', 'diameter', 'infectious', 'diseases', 'antibiotics', 'infections', 'germs', 'illnesses', 'active', 'infected', 'vaccines', 'spread',
+        'characteristics', 'influenced', 'conditions', 'experienced', 'critical', 'thinkers', 'curious', 'teamwork', 'welcome', 'developments', 'natives', 'creative', 'experiment', 'relying',
+        'cultures', 'differences', 'lifestyles', 'adapting', 'immigrants', 'individualism', 'freedom', 'competition', 'traditions', 'traditional', 'respect', 'attitudes',
+        'population', 'sustainable', 'urban', 'technologies', 'services', 'efficiently', 'sensors', 'biodiversity', 'farming', 'renewable', 'infrastructure', 'emissions', 'pedestrian', 'dwellers', 'liveable'
+      ];
 
       let pool = (type === 'prep') ? prepPool : vocabPool;
-      let filtered = pool.filter(w => w !== target);
+      let filtered = pool.filter(w => w.toLowerCase() !== target.toLowerCase());
       filtered = shuffleArray(filtered);
       return filtered.slice(0, 3);
     }
@@ -1154,6 +1192,8 @@
 
       const blankEl = document.getElementById(`blank-auto-${blankId}`);
       const q = autoClozeQuestions.find(item => item.blankId === blankId);
+
+      autoAnswers[blankId] = (chosenIdx === correctIdx);
 
       if (chosenIdx === correctIdx) {
         btn.classList.add('correct-opt');
@@ -1168,6 +1208,21 @@
           blankEl.className = 'cloze-blank blank-wrong';
           blankEl.textContent = '✗ ' + q.target;
         }
+      }
+
+      updateAutoStats();
+    }
+
+    function updateAutoStats() {
+      let correct = 0;
+      let answered = 0;
+      Object.keys(autoAnswers).forEach(k => {
+        answered++;
+        if (autoAnswers[k] === true) correct++;
+      });
+      const el = document.getElementById('autoScoreDisplay');
+      if (el) {
+        el.textContent = `${correct} / ${autoClozeQuestions.length} câu đúng`;
       }
     }
 
