@@ -1,0 +1,1172 @@
+{
+  "passages": [
+    {
+      "id": 1,
+      "unit": "Unit 1: A Long and Healthy Life",
+      "title": "How to Live a Long and Healthy Life",
+      "readingTitle": "Bí quyết để sống thọ và sống khỏe",
+      "originalText": "Life expectancy has generally increased over the past few decades, and some people enjoy a longer and healthier life than others. One possible explanation is that they have healthy lifestyle habits. So how can you develop these habits? Start by looking at food labels, paying attention to ingredients and nutrients, such as vitamins and minerals. Avoid having food with too much salt or sugar, such as fast food. Furthermore, add more fresh fruits and vegetables to your diet, and remember to eat a big breakfast and a small dinner.\n\nIf you have not been very active, start exercising slowly, but regularly. To begin with, choose the type of exercise that is suitable for you. Then, start slowly, for example, by doing exercise for only 5 to 10 minutes a day. When your body is ready for more exercise, you can work out longer. Finally, exercise regularly to always keep your body fit and your mind happy.\n\nA good night's sleep is very important. Before you go to bed, avoid having coffee or energy drinks. Exercise can help you have a better sleep, but avoid exercising right before bedtime. Never use your mobile phone or laptop in bed and turn off all your electronic devices at least 30 minutes before you go to bed. Their screens give off blue light that can prevent you from sleeping well. Finally, if you still can't fall asleep, do something repetitive or listen to some soft music to relax before trying to sleep again.",
+      "vietnameseText": "Tuổi thọ nói chung đã tăng lên trong vài thập kỷ qua, và một số người tận hưởng cuộc sống lâu hơn và khỏe mạnh hơn những người khác. Một lời giải thích khả dĩ là họ có những thói quen lối sống lành mạnh. Vậy làm thế nào để bạn phát triển những thói quen này? Hãy bắt đầu bằng việc đọc nhãn thực phẩm, chú ý đến các thành phần và chất dinh dưỡng, chẳng hạn như vitamin và khoáng chất. Tránh ăn thực phẩm có quá nhiều muối hoặc đường, như đồ ăn nhanh. Hơn nữa, hãy bổ sung thêm rau củ quả tươi vào chế độ ăn, và nhớ ăn bữa sáng no và bữa tối nhẹ nhàng.\n\nNếu bạn chưa vận động nhiều, hãy bắt đầu tập thể dục từ từ nhưng đều đặn. Trước hết, hãy chọn loại hình bài tập phù hợp với bạn. Sau đó, bắt đầu chậm rãi, ví dụ chỉ tập từ 5 đến 10 phút mỗi ngày. Khi cơ thể bạn đã sẵn sàng cho cường độ cao hơn, bạn có thể tập lâu hơn. Cuối cùng, hãy tập luyện thường xuyên để luôn giữ cho cơ thể thon gọn và tinh thần vui vẻ.\n\nMột giấc ngủ ngon ban đêm là vô cùng quan trọng. Trước khi đi ngủ, hãy tránh uống cà phê hoặc nước tăng lực. Tập thể dục có thể giúp bạn ngủ ngon hơn, nhưng hãy tránh tập ngay sát giờ đi ngủ. Đừng bao giờ dùng điện thoại hoặc laptop trên giường và hãy tắt mọi thiết bị điện tử ít nhất 30 phút trước khi ngủ. Màn hình của chúng phát ra ánh sáng xanh có thể cản trở bạn ngủ ngon. Cuối cùng, nếu bạn vẫn khó vào giấc ngủ, hãy làm việc gì đó lặp đi lặp lại hoặc nghe một chút nhạc nhẹ để thư giãn trước khi thử ngủ lại.",
+      "keyVocab": [
+        {
+          "word": "Life expectancy",
+          "type": "n.phr",
+          "meaning": "Tuổi thọ trung bình",
+          "example": "Life expectancy has generally increased over the past few decades."
+        },
+        {
+          "word": "Nutrients",
+          "type": "n",
+          "meaning": "Chất dinh dưỡng (vitamin, khoáng chất)",
+          "example": "Paying attention to ingredients and nutrients."
+        },
+        {
+          "word": "Suitable for",
+          "type": "adj",
+          "meaning": "Phù hợp với ai/cái gì",
+          "example": "Choose the type of exercise that is suitable for you."
+        },
+        {
+          "word": "Work out",
+          "type": "phr.v",
+          "meaning": "Tập luyện thể thao",
+          "example": "You can work out longer."
+        },
+        {
+          "word": "Give off",
+          "type": "phr.v",
+          "meaning": "Phát ra, tỏa ra (ánh sáng, nhiệt, mùi)",
+          "example": "Their screens give off blue light."
+        },
+        {
+          "word": "Prevent sb from V-ing",
+          "type": "struct",
+          "meaning": "Ngăn cản ai làm gì",
+          "example": "Prevent you from sleeping well."
+        },
+        {
+          "word": "Fall asleep",
+          "type": "idiom",
+          "meaning": "Chìm vào giấc ngủ, ngủ thiếp đi",
+          "example": "If you still can't fall asleep, listen to soft music."
+        }
+      ],
+      "clozeShort": [
+        {
+          "blankId": 1,
+          "contextBefore": "Life expectancy has generally increased over the past few decades, and some people enjoy a longer and healthier life than others. One possible ",
+          "targetWord": "explanation",
+          "contextAfter": " is that they have healthy lifestyle habits.",
+          "options": [
+            "A. explanation",
+            "B. instruction",
+            "C. invention",
+            "D. expectation"
+          ],
+          "correct": 0,
+          "explain": "'explanation' (lời giải thích). Cụm 'One possible explanation is that...' nghĩa là 'Một lời giải thích khả thi là...'. Các từ khác: instruction (hướng dẫn), invention (phát minh), expectation (sự mong đợi)."
+        },
+        {
+          "blankId": 2,
+          "contextBefore": "Start by looking at food labels, paying attention ",
+          "targetWord": "to",
+          "contextAfter": " ingredients and nutrients, such as vitamins and minerals.",
+          "options": [
+            "A. for",
+            "B. to",
+            "C. on",
+            "D. with"
+          ],
+          "correct": 1,
+          "explain": "Cấu trúc collocation chuẩn: 'pay attention to sth' = chú ý đến cái gì."
+        },
+        {
+          "blankId": 3,
+          "contextBefore": "Avoid having food with too much salt or sugar, such as fast food. ",
+          "targetWord": "Furthermore",
+          "contextAfter": ", add more fresh fruits and vegetables to your diet.",
+          "options": [
+            "A. However",
+            "B. Furthermore",
+            "C. Therefore",
+            "D. Although"
+          ],
+          "correct": 1,
+          "explain": "'Furthermore' (Hơn nữa / Thêm vào đó) dùng để bổ sung thêm một lời khuyên dinh dưỡng hữu ích. 'However' (tuy nhiên), 'Therefore' (do đó)."
+        },
+        {
+          "blankId": 4,
+          "contextBefore": "To begin with, choose the type of exercise that is ",
+          "targetWord": "suitable",
+          "contextAfter": " for you. Then, start slowly, for example, by doing exercise for only 5 to 10 minutes a day.",
+          "options": [
+            "A. harmful",
+            "B. suitable",
+            "C. dangerous",
+            "D. difficult"
+          ],
+          "correct": 1,
+          "explain": "Tính từ đi với giới từ 'for': 'suitable for' = phù hợp, thích hợp cho ai. (harmful to: có hại)."
+        },
+        {
+          "blankId": 5,
+          "contextBefore": "Their screens give off blue light that can ",
+          "targetWord": "prevent",
+          "contextAfter": " you from sleeping well.",
+          "options": [
+            "A. protect",
+            "B. encourage",
+            "C. prevent",
+            "D. support"
+          ],
+          "correct": 2,
+          "explain": "Cấu trúc ngữ pháp trọng tâm: 'prevent someone from doing something' = ngăn cản/khiến ai không thể làm gì."
+        },
+        {
+          "blankId": 6,
+          "contextBefore": "Finally, if you still can't ",
+          "targetWord": "fall",
+          "contextAfter": " asleep, do something repetitive or listen to some soft music.",
+          "options": [
+            "A. get",
+            "B. fall",
+            "C. feel",
+            "D. drop"
+          ],
+          "correct": 1,
+          "explain": "Collocation thành ngữ cố định: 'fall asleep' = bắt đầu chìm vào giấc ngủ."
+        }
+      ],
+      "clozeLong": [
+        {
+          "blankId": "A",
+          "position": "Đoạn 1 (Lời khuyên về chế độ ăn uống lành mạnh)",
+          "contextBefore": "Start by looking at food labels, paying attention to ingredients and nutrients, such as vitamins and minerals. [ ... ] Furthermore, add more fresh fruits and vegetables to your diet.",
+          "target": "Avoid having food with too much salt or sugar, such as fast food.",
+          "options": [
+            "A. Avoid having food with too much salt or sugar, such as fast food.",
+            "B. You should eat as much confectionery and sweet candies as possible.",
+            "C. People rarely check what chemicals are contained in processed products.",
+            "D. Fast food always supplies all the essential nutrients for daily activities."
+          ],
+          "correct": 0,
+          "explain": "Câu A nối tiếp ý khuyên ăn uống lành mạnh: khuyên tránh thực phẩm chứa nhiều muối hoặc đường như thức ăn nhanh, trước khi khuyên ăn thêm rau củ."
+        },
+        {
+          "blankId": "B",
+          "position": "Đoạn 2 (Cách bắt đầu tập thể dục)",
+          "contextBefore": "To begin with, choose the type of exercise that is suitable for you. [ ... ] When your body is ready for more exercise, you can work out longer.",
+          "target": "Then, start slowly, for example, by doing exercise for only 5 to 10 minutes a day.",
+          "options": [
+            "A. You must immediately run a full 42-kilometre marathon on the very first day.",
+            "B. Then, start slowly, for example, by doing exercise for only 5 to 10 minutes a day.",
+            "C. Heavy weightlifting without guidance is the best way to prevent injuries.",
+            "D. Regular exercise will completely eliminate the need for drinking water."
+          ],
+          "correct": 1,
+          "explain": "Câu B phù hợp với trình tự thời gian 'To begin with... -> Then, start slowly... -> When your body is ready... -> Finally...'."
+        },
+        {
+          "blankId": "C",
+          "position": "Đoạn 3 (Nguyên nhân ánh sáng xanh gây mất ngủ)",
+          "contextBefore": "Never use your mobile phone or laptop in bed and turn off all your electronic devices at least 30 minutes before you go to bed. [ ... ] Finally, if you still can't fall asleep, do something repetitive.",
+          "target": "Their screens give off blue light that can prevent you from sleeping well.",
+          "options": [
+            "A. Checking social media notifications late at night will soothe your tired eyes.",
+            "B. Modern electronic devices can replace natural sunlight and improve eyesight.",
+            "C. Their screens give off blue light that can prevent you from sleeping well.",
+            "D. Playing intense action games before sleeping helps muscles relax thoroughly."
+          ],
+          "correct": 2,
+          "explain": "Câu C giải thích lý do tại sao không nên dùng điện thoại/laptop trước khi ngủ: màn hình phát ra ánh sáng xanh ngăn cản giấc ngủ."
+        }
+      ],
+      "readingComprehension": [
+        {
+          "question": "What is the main topic of the passage?",
+          "options": [
+            "A. How to select the most expensive gym membership.",
+            "B. Practical advice on building healthy habits for a longer life.",
+            "C. The harmful chemical compositions of modern fast foods.",
+            "D. How electronic devices were invented to improve human health."
+          ],
+          "correct": 1,
+          "explain": "Bài đọc đưa ra các lời khuyên thực tế về 3 khía cạnh: ăn uống (dinh dưỡng), vận động (tập thể dục) và giấc ngủ nhằm phát triển thói quen sống khỏe mạnh và thọ hơn."
+        },
+        {
+          "question": "According to paragraph 1, what should people do with food labels?",
+          "options": [
+            "A. Ignore them because they contain misleading advertisements.",
+            "B. Read them carefully to check ingredients and nutrients.",
+            "C. Only check the expiration date and brand names.",
+            "D. Tear them off before cooking vegetables."
+          ],
+          "correct": 1,
+          "explain": "Dẫn chứng trong bài: 'Start by looking at food labels, paying attention to ingredients and nutrients, such as vitamins and minerals.'"
+        },
+        {
+          "question": "The phrasal verb 'work out' in paragraph 2 is closest in meaning to?",
+          "options": [
+            "A. calculate numbers",
+            "B. do physical exercise",
+            "C. solve difficult problems",
+            "D. paint pictures"
+          ],
+          "correct": 1,
+          "explain": "Trong ngữ cảnh thể thao, 'work out' = do physical exercise (tập luyện thể dục thể thao)."
+        },
+        {
+          "question": "Why should we turn off electronic devices at least 30 minutes before bedtime?",
+          "options": [
+            "A. Because their batteries will explode if left on overnight.",
+            "B. Because they emit blue light which disturbs our sleep.",
+            "C. Because Internet service providers shut down at night.",
+            "D. Because listening to music at night damages our hearing."
+          ],
+          "correct": 1,
+          "explain": "Dẫn chứng đoạn cuối: 'Their screens give off blue light that can prevent you from sleeping well.'"
+        }
+      ],
+      "sentenceOrdering": [
+        {
+          "task": "Sắp xếp 5 bước sau đây thành trình tự lời khuyên về tập thể dục theo đúng mạch đoạn văn B:",
+          "sentences": [
+            {
+              "id": "a",
+              "text": "When your body is ready for more exercise, you can work out longer."
+            },
+            {
+              "id": "b",
+              "text": "If you have not been active, start exercising slowly, but regularly."
+            },
+            {
+              "id": "c",
+              "text": "To begin with, choose the type of exercise that is suitable for you."
+            },
+            {
+              "id": "d",
+              "text": "Finally, exercise regularly to always keep your body fit and mind happy."
+            },
+            {
+              "id": "e",
+              "text": "Then, start slowly, for example, by doing exercise for only 5 to 10 minutes a day."
+            }
+          ],
+          "correctOrder": "b - c - e - a - d",
+          "explain": "Trật tự mạch văn logic: b (Đặt vấn đề nếu chưa tích cực vận động) -> c (To begin with: chọn môn phù hợp) -> e (Then: tập 5-10 phút) -> a (When ready: tập lâu hơn) -> d (Finally: duy trì đều đặn)."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "unit": "Unit 1: Health & Science",
+      "title": "Bacteria and Viruses",
+      "readingTitle": "Vi khuẩn và Vi-rút: Sự khác biệt và Tác động",
+      "originalText": "Both bacteria and viruses can cause diseases, but they are different in many ways.\n\nBacteria are living organisms. They can live in many places, such as soil, water, and the human body. The smallest bacteria are about 0.4 microns in diameter. Some bacteria in our bodies are helpful, but some can cause infectious diseases such as tuberculosis or food poisoning. Antibiotics are often used to treat infections caused by bacteria.\n\nViruses are tiny germs that can make people, animals, and plants sick. They can cause a range of illnesses, from the common cold or the flu to more serious diseases such as AIDS and Covid-19. As they are very small (0.02 to 0.25 microns), viruses can get into our bodies easily. They are not living things, so they need to enter our bodies to become active. Then, they start to grow and cause the infected cell to make millions of copies of the virus. Vaccines are often used to prevent the spread of diseases caused by viruses.",
+      "vietnameseText": "Cả vi khuẩn và vi-rút đều có thể gây bệnh, nhưng chúng khác nhau ở nhiều điểm.\n\nVi khuẩn là những sinh vật sống. Chúng có thể sống ở nhiều nơi, chẳng hạn như đất, nước và cơ thể con người. Những vi khuẩn nhỏ nhất có đường kính khoảng 0,4 micron. Một số vi khuẩn trong cơ thể chúng ta có lợi, nhưng một số có thể gây ra các bệnh truyền nhiễm như lao phổi hoặc ngộ độc thực phẩm. Thuốc kháng sinh thường được sử dụng để điều trị các bệnh nhiễm trùng do vi khuẩn gây ra.\n\nVi-rút là những mầm bệnh tí hon có thể làm cho con người, động vật và thực vật bị bệnh. Chúng có thể gây ra hàng loạt chứng bệnh, từ cảm lạnh thông thường hay cúm mùa cho đến các bệnh nghiêm trọng hơn như AIDS và Covid-19. Do có kích thước rất nhỏ (0,02 đến 0,25 micron), vi-rút có thể xâm nhập vào cơ thể chúng ta một cách dễ dàng. Chúng không phải là sinh vật sống, vì vậy chúng cần phải xâm nhập vào cơ thể vật chủ để trở nên hoạt động. Sau đó, chúng bắt đầu phát triển và khiến tế bào bị nhiễm tạo ra hàng triệu bản sao của vi-rút. Vắc-xin thường được sử dụng để ngăn ngừa sự lây lan của các bệnh do vi-rút gây ra.",
+      "keyVocab": [
+        {
+          "word": "Living organisms",
+          "type": "n.phr",
+          "meaning": "Sinh vật sống",
+          "example": "Bacteria are living organisms."
+        },
+        {
+          "word": "Infectious diseases",
+          "type": "n.phr",
+          "meaning": "Bệnh truyền nhiễm",
+          "example": "Some can cause infectious diseases such as tuberculosis."
+        },
+        {
+          "word": "Antibiotics",
+          "type": "n",
+          "meaning": "Thuốc kháng sinh (chỉ trị vi khuẩn)",
+          "example": "Antibiotics are used to treat infections caused by bacteria."
+        },
+        {
+          "word": "A range of illnesses",
+          "type": "phr",
+          "meaning": "Một loạt / Nhiều chứng bệnh khác nhau",
+          "example": "Viruses can cause a range of illnesses."
+        },
+        {
+          "word": "Vaccines",
+          "type": "n",
+          "meaning": "Vắc-xin phòng ngừa bệnh (chủ yếu là vi-rút)",
+          "example": "Vaccines are often used to prevent the spread of diseases."
+        },
+        {
+          "word": "Cause sth to do sth",
+          "type": "struct",
+          "meaning": "Khiến cái gì làm gì",
+          "example": "Cause the infected cell to make millions of copies."
+        }
+      ],
+      "clozeShort": [
+        {
+          "blankId": 1,
+          "contextBefore": "Both bacteria and viruses can cause diseases, but they are different ",
+          "targetWord": "in",
+          "contextAfter": " many ways.",
+          "options": [
+            "A. on",
+            "B. at",
+            "C. in",
+            "D. with"
+          ],
+          "correct": 2,
+          "explain": "Cụm thành ngữ cố định: 'different in many ways' = khác nhau về nhiều phương diện."
+        },
+        {
+          "blankId": 2,
+          "contextBefore": "Some bacteria in our bodies are helpful, but some can cause ",
+          "targetWord": "infectious",
+          "contextAfter": " diseases such as tuberculosis or food poisoning.",
+          "options": [
+            "A. infection",
+            "B. infectious",
+            "C. infectiously",
+            "D. infect"
+          ],
+          "correct": 1,
+          "explain": "Đứng trước danh từ 'diseases' cần một tính từ bổ nghĩa: 'infectious diseases' (các bệnh truyền nhiễm)."
+        },
+        {
+          "blankId": 3,
+          "contextBefore": "",
+          "targetWord": "Antibiotics",
+          "contextAfter": " are often used to treat infections caused by bacteria.",
+          "options": [
+            "A. Vaccines",
+            "B. Nutrients",
+            "C. Antibiotics",
+            "D. Hormones"
+          ],
+          "correct": 2,
+          "explain": "'Antibiotics' (thuốc kháng sinh) được dùng đặc trị nhiễm khuẩn do vi khuẩn gây ra. Vắc-xin dùng để phòng ngừa."
+        },
+        {
+          "blankId": 4,
+          "contextBefore": "Viruses are tiny germs that can ",
+          "targetWord": "make",
+          "contextAfter": " people, animals, and plants sick.",
+          "options": [
+            "A. make",
+            "B. do",
+            "C. force",
+            "D. take"
+          ],
+          "correct": 0,
+          "explain": "Cấu trúc: 'make someone sick' = làm cho ai đó bị ốm/bệnh."
+        },
+        {
+          "blankId": 5,
+          "contextBefore": "Then, they start to grow and cause the infected cell to ",
+          "targetWord": "make",
+          "contextAfter": " millions of copies of the virus.",
+          "options": [
+            "A. making",
+            "B. make",
+            "C. made",
+            "D. makes"
+          ],
+          "correct": 1,
+          "explain": "Cấu trúc: 'cause somebody/something TO DO something' -> sau 'to' là động từ nguyên mẫu (to make)."
+        },
+        {
+          "blankId": 6,
+          "contextBefore": "Vaccines are often used to prevent the ",
+          "targetWord": "spread",
+          "contextAfter": " of diseases caused by viruses.",
+          "options": [
+            "A. cure",
+            "B. spread",
+            "C. recovery",
+            "D. increase"
+          ],
+          "correct": 1,
+          "explain": "Collocation: 'prevent the spread of diseases' = ngăn chặn sự lây lan, phát tán của dịch bệnh."
+        }
+      ],
+      "clozeLong": [
+        {
+          "blankId": "A",
+          "position": "Đoạn 2 (Đặc điểm sinh học của vi khuẩn)",
+          "contextBefore": "Bacteria are living organisms. [ ... ] Some bacteria in our bodies are helpful, but some can cause infectious diseases.",
+          "target": "They can live in many places, such as soil, water, and the human body.",
+          "options": [
+            "A. They can live in many places, such as soil, water, and the human body.",
+            "B. Only clean laboratory conditions allow bacterial organisms to survive.",
+            "C. Bacteria never reproduce outside of deep freezing temperatures.",
+            "D. They immediately disappear whenever they come into contact with water."
+          ],
+          "correct": 0,
+          "explain": "Câu A mô tả môi trường sống đa dạng của vi khuẩn: có thể sống ở nhiều nơi như đất, nước, và cơ thể con người."
+        },
+        {
+          "blankId": "B",
+          "position": "Đoạn 3 (Bản chất sinh học của vi-rút)",
+          "contextBefore": "As they are very small (0.02 to 0.25 microns), viruses can get into our bodies easily. [ ... ] Then, they start to grow and cause the infected cell to make millions of copies.",
+          "target": "They are not living things, so they need to enter our bodies to become active.",
+          "options": [
+            "A. Viruses are large creatures that possess complex multi-organ digestive tracts.",
+            "B. They are not living things, so they need to enter our bodies to become active.",
+            "C. Human immune systems can never produce any antibodies against viruses.",
+            "D. Viruses manufacture their own food through plant-like photosynthesis."
+          ],
+          "correct": 1,
+          "explain": "Câu B giải thích điểm khác biệt cốt lõi giữa vi khuẩn và vi-rút: vi-rút không phải sinh vật sống, cần xâm nhập cơ thể vật chủ để hoạt động."
+        }
+      ],
+      "readingComprehension": [
+        {
+          "question": "What is one fundamental difference between bacteria and viruses mentioned in the text?",
+          "options": [
+            "A. Bacteria are living organisms, whereas viruses are not living things.",
+            "B. Bacteria are much smaller in diameter than any viral pathogen.",
+            "C. Viruses can be treated effectively by standard antibiotics.",
+            "D. Bacteria can only live inside human lung tissues."
+          ],
+          "correct": 0,
+          "explain": "Trong bài nêu rõ: 'Bacteria are living organisms' còn 'Viruses are not living things'."
+        },
+        {
+          "question": "Which medical treatment is specifically mentioned for infections caused by bacteria?",
+          "options": [
+            "A. Vaccines",
+            "B. Antibiotics",
+            "C. Herbal tea",
+            "D. Radiation therapy"
+          ],
+          "correct": 1,
+          "explain": "Dẫn chứng: 'Antibiotics are often used to treat infections caused by bacteria.'"
+        },
+        {
+          "question": "What do viruses do after entering host cells?",
+          "options": [
+            "A. They immediately die out because of white blood cells.",
+            "B. They turn into helpful bacteria to assist digestion.",
+            "C. They force the infected cell to manufacture millions of copies of themselves.",
+            "D. They enlarge to 400 microns in diameter."
+          ],
+          "correct": 2,
+          "explain": "Dẫn chứng: 'Then, they start to grow and cause the infected cell to make millions of copies of the virus.'"
+        }
+      ],
+      "sentenceOrdering": [
+        {
+          "task": "Sắp xếp quá trình gây bệnh và phòng chống vi-rút theo đúng trật tự logic:",
+          "sentences": [
+            {
+              "id": "a",
+              "text": "They cause the infected host cell to make millions of virus copies."
+            },
+            {
+              "id": "b",
+              "text": "Vaccines are widely administered to prevent the spread of viral diseases."
+            },
+            {
+              "id": "c",
+              "text": "Because they are extremely tiny, viruses easily penetrate into our bodies."
+            },
+            {
+              "id": "d",
+              "text": "Once inside, they become biologically active and begin to multiply."
+            }
+          ],
+          "correctOrder": "c - d - a - b",
+          "explain": "Trình tự: c (Xâm nhập cơ thể) -> d (Trở nên hoạt động và nhân lên) -> a (Khiến tế bào tạo triệu bản sao) -> b (Dùng vắc xin phòng ngừa)."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "unit": "Unit 2: The Generation Gap",
+      "title": "Generations: Gen X, Millennials, Gen Z",
+      "readingTitle": "Các thế hệ: Thế hệ X, Millennials và Thế hệ Z",
+      "originalText": "Over the past two centuries, different generations were born and given different names. Each generation comes with its characteristics, which are largely influenced by the historical, economic, and social conditions of the country they live in. However, in many countries the following three generations have common characteristics.\n\nGeneration X refers to the generation born between 1965 and 1980. When Gen Xers grew up, they experienced many social changes and developments in history. As a result, they are always ready for changes and prepared to work through changes. Gen Xers are also known as critical thinkers because they achieved higher levels of education than previous generations.\n\nGeneration Y, also known as Millennials, refers to those born between the early 1980s and late 1990s. They are curious and ready to accept changes if there is a faster, better way of doing something. Millennials want to try it out. They also value teamwork. When working in a team, Millennials welcome different points of view and ideas from others.\n\nGeneration Z includes people born between the late 1990s and early 2010s, a time of great technological developments and changes. That is why Gen Zers are also called digital natives. They grew up online and never knew the world before digital and social media. They are very creative and able to experiment with platforms to suit their needs. Many Gen Zers are also interested in starting their own businesses and companies. They saw so many people lose their jobs, so they think it is safer to be your own boss than relying on someone else to hire you.\n\nSoon a new generation, labelled Gen Alpha, will be on the scene. Let's wait and see if we will notice the generation gap.",
+      "vietnameseText": "Trong hai thế kỷ qua, các thế hệ khác nhau đã ra đời và được đặt những tên gọi khác nhau. Mỗi thế hệ đều có những đặc điểm riêng, phần lớn bị ảnh hưởng bởi các điều kiện lịch sử, kinh tế và xã hội của quốc gia nơi họ sinh sống. Tuy nhiên, ở nhiều quốc gia, ba thế hệ sau đây có những đặc điểm chung.\n\nThế hệ X chỉ thế hệ sinh từ năm 1965 đến năm 1980. Khi Gen X lớn lên, họ đã trải qua nhiều biến đổi xã hội và phát triển trong lịch sử. Kết quả là, họ luôn sẵn sàng đón nhận và chuẩn bị đối mặt với những thay đổi. Gen X cũng được biết đến là những người có tư duy phản biện vì họ đạt được trình độ học vấn cao hơn các thế hệ trước.\n\nThế hệ Y, còn được gọi là Millennials, chỉ những người sinh từ đầu những năm 1980 đến cuối những năm 1990. Họ rất tò mò và sẵn sàng chấp nhận thay đổi nếu có cách làm nhanh hơn, tốt hơn. Millennials muốn thử nghiệm điều đó. Họ cũng rất coi trọng tinh thần đồng đội. Khi làm việc nhóm, Millennials luôn hoan nghênh những quan điểm và ý tưởng khác nhau từ người khác.\n\nThế hệ Z bao gồm những người sinh từ cuối những năm 1990 đến đầu những năm 2010, thời kỳ của những phát triển và thay đổi công nghệ vượt bậc. Đó là lý do tại sao Gen Z còn được gọi là 'công dân kỹ thuật số' (digital natives). Họ lớn lên trên mạng và chưa bao giờ biết đến thế giới trước khi có phương tiện kỹ thuật số và mạng xã hội. Họ rất sáng tạo và có khả năng thử nghiệm với các nền tảng để phục vụ nhu cầu của mình. Nhiều Gen Z cũng hứng thú với việc khởi nghiệp và mở công ty riêng. Họ đã chứng kiến nhiều người mất việc làm, vì vậy họ nghĩ rằng tự làm chủ sẽ an toàn hơn là trông chờ người khác thuê mình.\n\nSắp tới, một thế hệ mới mang tên Gen Alpha sẽ xuất hiện. Hãy cùng chờ xem liệu chúng ta có nhận thấy khoảng cách thế hệ hay không.",
+      "keyVocab": [
+        {
+          "word": "Be influenced by",
+          "type": "struct",
+          "meaning": "Bị ảnh hưởng bởi",
+          "example": "Influenced by historical, economic, and social conditions."
+        },
+        {
+          "word": "Critical thinkers",
+          "type": "n.phr",
+          "meaning": "Những người có tư duy phản biện",
+          "example": "Gen Xers are known as critical thinkers."
+        },
+        {
+          "word": "Value teamwork",
+          "type": "colloc",
+          "meaning": "Coi trọng làm việc nhóm",
+          "example": "Millennials also value teamwork."
+        },
+        {
+          "word": "Digital natives",
+          "type": "n.phr",
+          "meaning": "Người bản địa kỹ thuật số (sinh ra trong thời đại số)",
+          "example": "Gen Zers are also called digital natives."
+        },
+        {
+          "word": "Experiment with",
+          "type": "v.phr",
+          "meaning": "Thử nghiệm với cái gì",
+          "example": "Able to experiment with platforms to suit their needs."
+        },
+        {
+          "word": "Relying on",
+          "type": "v.phr",
+          "meaning": "Dựa dẫm, phụ thuộc vào ai",
+          "example": "Relying on someone else to hire you."
+        }
+      ],
+      "clozeShort": [
+        {
+          "blankId": 1,
+          "contextBefore": "Each generation comes with its characteristics, ",
+          "targetWord": "which",
+          "contextAfter": " are largely influenced by the historical conditions.",
+          "options": [
+            "A. who",
+            "B. which",
+            "C. whose",
+            "D. where"
+          ],
+          "correct": 1,
+          "explain": "Đại từ quan hệ 'which' thay thế cho danh từ chỉ vật/sự việc 'its characteristics' và đứng sau dấu phẩy (mệnh đề quan hệ không xác định)."
+        },
+        {
+          "blankId": 2,
+          "contextBefore": "When Gen Xers grew up, they experienced many social changes. ",
+          "targetWord": "As a result",
+          "contextAfter": ", they are always ready for changes.",
+          "options": [
+            "A. As a result",
+            "B. In contrast",
+            "C. Although",
+            "D. In addition"
+          ],
+          "correct": 0,
+          "explain": "'As a result' = Kết quả là (chỉ mối quan hệ nguyên nhân - kết quả giữa hai câu độc lập)."
+        },
+        {
+          "blankId": 3,
+          "contextBefore": "Gen Xers are also known as ",
+          "targetWord": "critical",
+          "contextAfter": " thinkers because they achieved higher levels of education.",
+          "options": [
+            "A. criticism",
+            "B. criticize",
+            "C. critically",
+            "D. critical"
+          ],
+          "correct": 3,
+          "explain": "Cụm danh từ: tính từ 'critical' bổ nghĩa cho danh từ 'thinkers' -> 'critical thinkers' (người có tư duy phản biện)."
+        },
+        {
+          "blankId": 4,
+          "contextBefore": "Millennials welcome different points of ",
+          "targetWord": "view",
+          "contextAfter": " and ideas from others.",
+          "options": [
+            "A. look",
+            "B. sight",
+            "C. view",
+            "D. vision"
+          ],
+          "correct": 2,
+          "explain": "Thành ngữ cố định: 'points of view' = quan điểm, góc nhìn."
+        },
+        {
+          "blankId": 5,
+          "contextBefore": "That is why Gen Zers are also called digital ",
+          "targetWord": "natives",
+          "contextAfter": ". They grew up online and never knew the world before digital media.",
+          "options": [
+            "A. strangers",
+            "B. natives",
+            "C. foreigners",
+            "D. visitors"
+          ],
+          "correct": 1,
+          "explain": "Thuật ngữ xã hội học: 'digital natives' (người bản địa số - thế hệ sinh ra và lớn lên trong môi trường công nghệ số)."
+        },
+        {
+          "blankId": 6,
+          "contextBefore": "They think it is safer to be your own boss than relying ",
+          "targetWord": "on",
+          "contextAfter": " someone else to hire you.",
+          "options": [
+            "A. in",
+            "B. for",
+            "C. at",
+            "D. on"
+          ],
+          "correct": 3,
+          "explain": "Giới từ đi với động từ: 'rely on someone' = phụ thuộc, tin cậy, trông cậy vào ai."
+        }
+      ],
+      "clozeLong": [
+        {
+          "blankId": "A",
+          "position": "Đoạn nói về Gen X",
+          "contextBefore": "Generation X refers to the generation born between 1965 and 1980. When Gen Xers grew up, they experienced many social changes and developments in history. [ ... ] Gen Xers are also known as critical thinkers.",
+          "target": "As a result, they are always ready for changes and prepared to work through changes.",
+          "options": [
+            "A. Therefore, they refused all technological advancements and social contacts.",
+            "B. As a result, they are always ready for changes and prepared to work through changes.",
+            "C. Because of this, their average literacy rate dropped dramatically compared to their ancestors.",
+            "D. In conclusion, they could not adapt to modern workplaces at all."
+          ],
+          "correct": 1,
+          "explain": "Câu B nêu kết quả logic của việc trải qua nhiều biến cố lịch sử: họ luôn sẵn sàng đón nhận và chuẩn bị làm việc qua các thay đổi."
+        },
+        {
+          "blankId": "B",
+          "position": "Đoạn nói về Gen Z",
+          "contextBefore": "Many Gen Zers are also interested in starting their own businesses and companies. [ ... ] Soon a new generation, labelled Gen Alpha, will be on the scene.",
+          "target": "They saw so many people lose their jobs, so they think it is safer to be your own boss than relying on someone else to hire you.",
+          "options": [
+            "A. They saw so many people lose their jobs, so they think it is safer to be your own boss than relying on someone else to hire you.",
+            "B. They prefer permanent government desk jobs with strictly predictable salaries.",
+            "C. Because they dislike digital smartphones, they only communicate through postal letters.",
+            "D. They believe working for others without compensation is the quickest way to wealth."
+          ],
+          "correct": 0,
+          "explain": "Câu A giải thích lý do vì sao nhiều bạn Gen Z muốn khởi nghiệp tự mở công ty: vì họ thấy nhiều người mất việc nên nghĩ tự làm chủ bản thân sẽ an toàn hơn."
+        }
+      ],
+      "readingComprehension": [
+        {
+          "question": "What is the primary factor that shapes the unique characteristics of each generation?",
+          "options": [
+            "A. The genetic codes inherited directly from grandparents.",
+            "B. The historical, economic, and social conditions of the country they live in.",
+            "C. The astrological zodiac signs under which they were born.",
+            "D. The specific brand of computer they used during elementary school."
+          ],
+          "correct": 1,
+          "explain": "Dẫn chứng ngay đoạn 1: '...which are largely influenced by the historical, economic, and social conditions of the country they live in.'"
+        },
+        {
+          "question": "Why are Generation Z often referred to as 'digital natives'?",
+          "options": [
+            "A. Because they invented the first personal computers in the 1970s.",
+            "B. Because they were born into the digital era and never experienced life without Internet and social media.",
+            "C. Because they dislike modern portable devices and prefer paper books.",
+            "D. Because they refuse to communicate with people in real life."
+          ],
+          "correct": 1,
+          "explain": "Dẫn chứng: 'They grew up online and never knew the world before digital and social media.'"
+        },
+        {
+          "question": "The word 'curious' in the paragraph about Millennials is closest in meaning to?",
+          "options": [
+            "A. eager to learn and explore",
+            "B. indifferent and lazy",
+            "C. fearful of new devices",
+            "D. aggressive and rude"
+          ],
+          "correct": 0,
+          "explain": "'curious' = hiếu kỳ, tò mò, ham học hỏi và khám phá (eager to learn and explore)."
+        }
+      ],
+      "sentenceOrdering": [
+        {
+          "task": "Sắp xếp thông tin về các thế hệ theo thứ tự thời gian xuất hiện trong bài:",
+          "sentences": [
+            {
+              "id": "a",
+              "text": "Generation Z (Digital natives born between late 1990s and early 2010s)."
+            },
+            {
+              "id": "b",
+              "text": "Generation Alpha will soon be the next group on the scene."
+            },
+            {
+              "id": "c",
+              "text": "Generation X (Born between 1965 and 1980, known as critical thinkers)."
+            },
+            {
+              "id": "d",
+              "text": "Millennials or Generation Y (Born between early 1980s and late 1990s)."
+            }
+          ],
+          "correctOrder": "c - d - a - b",
+          "explain": "Thứ tự các thế hệ theo thời gian: Gen X (1965-1980) -> Gen Y (1980s-1990s) -> Gen Z (1990s-2010s) -> Gen Alpha."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "unit": "Unit 2: Culture",
+      "title": "The Generation Gap in Asian American Families",
+      "readingTitle": "Khoảng cách thế hệ trong các gia đình Mỹ gốc Á",
+      "originalText": "For people in most cultures, the generation gap in their family is mainly about differences in musical tastes, career choices, and lifestyles. In Asian American families, however, the process of adapting to American culture makes the generation gap wider.\n\nNaturally, children of Asian American immigrants adapt to American culture much faster than their parents. English quickly becomes their first language. They accept American values such as individualism, freedom, honesty, and competition. They also start to follow American traditions in their daily lives.\n\nOn the other hand, many first-generation Asian American parents fail to adapt to the new culture. They continue to use their native language. They keep practising their traditional lifestyle and old culture. They often try to force their children to follow their native country's cultural values, such as the importance of family, respect for the elders and the community.\n\nDue to their different attitudes to the new culture, Asian American children may have cultural values different from their parents' Asian cultural values. They may not do what their parents want them to do or what they are expected to do. As a result, Asian American parents may fail to have their children follow the family traditional values.",
+      "vietnameseText": "Đối với người dân ở hầu hết các nền văn hóa, khoảng cách thế hệ trong gia đình họ chủ yếu là sự khác biệt về sở thích âm nhạc, lựa chọn nghề nghiệp và lối sống. Tuy nhiên, trong các gia đình người Mỹ gốc Á, quá trình thích nghi với văn hóa Mỹ khiến khoảng cách thế hệ càng trở nên sâu sắc hơn.\n\nĐương nhiên, con cái của những người nhập cư gốc Á thích nghi với văn hóa Mỹ nhanh hơn cha mẹ rất nhiều. Tiếng Anh nhanh chóng trở thành ngôn ngữ mẹ đẻ của các em. Các em đón nhận những giá trị của Mỹ như chủ nghĩa cá nhân, sự tự do, tính trung thực và sự cạnh tranh. Các em cũng bắt đầu làm theo các truyền thống của Mỹ trong đời sống thường ngày.\n\nMặt khác, nhiều bậc cha mẹ gốc Á thế hệ thứ nhất không thể thích nghi với nền văn hóa mới. Họ tiếp tục sử dụng tiếng mẹ đẻ. Họ duy trì lối sống truyền thống và văn hóa cũ. Họ thường cố gắng ép buộc con cái phải tuân theo các giá trị văn hóa của quê hương mình, chẳng hạn như coi trọng gia đình, kính trọng người lớn tuổi và cộng đồng.\n\nDo thái độ khác nhau đối với nền văn hóa mới, con cái người Mỹ gốc Á có thể có những giá trị văn hóa khác biệt so với các giá trị châu Á của cha mẹ. Các em có thể không làm những gì cha mẹ mong muốn hoặc những gì được kỳ vọng. Kết quả là, các bậc cha mẹ gốc Á có thể không duy trì được việc con cái tuân theo những giá trị truyền thống của gia đình.",
+      "keyVocab": [
+        {
+          "word": "Adapting to",
+          "type": "v.phr",
+          "meaning": "Thích nghi, hòa nhập với",
+          "example": "The process of adapting to American culture."
+        },
+        {
+          "word": "Individualism",
+          "type": "n",
+          "meaning": "Chủ nghĩa cá nhân, đề cao tự do cá nhân",
+          "example": "Values such as individualism and freedom."
+        },
+        {
+          "word": "On the other hand",
+          "type": "connector",
+          "meaning": "Mặt khác, ngược lại",
+          "example": "On the other hand, many parents fail to adapt."
+        },
+        {
+          "word": "Fail to do sth",
+          "type": "struct",
+          "meaning": "Không làm được việc gì, thất bại trong việc gì",
+          "example": "Asian American parents fail to adapt to the new culture."
+        },
+        {
+          "word": "Respect for the elders",
+          "type": "phr",
+          "meaning": "Sự tôn kính đối với người lớn tuổi",
+          "example": "Values such as respect for the elders."
+        },
+        {
+          "word": "Due to",
+          "type": "prep",
+          "meaning": "Bởi vì, do (+ Noun/V-ing)",
+          "example": "Due to their different attitudes to the new culture."
+        }
+      ],
+      "clozeShort": [
+        {
+          "blankId": 1,
+          "contextBefore": "In Asian American families, however, the process of adapting ",
+          "targetWord": "to",
+          "contextAfter": " American culture makes the generation gap wider.",
+          "options": [
+            "A. with",
+            "B. to",
+            "C. into",
+            "D. for"
+          ],
+          "correct": 1,
+          "explain": "Giới từ đi với 'adapt': 'adapt to something' = thích nghi, hòa nhập với cái gì."
+        },
+        {
+          "blankId": 2,
+          "contextBefore": "Naturally, children of Asian American immigrants adapt to American culture much ",
+          "targetWord": "faster",
+          "contextAfter": " than their parents.",
+          "options": [
+            "A. fast",
+            "B. faster",
+            "C. fastest",
+            "D. more fast"
+          ],
+          "correct": 1,
+          "explain": "Cấu trúc so sánh hơn của trạng từ ngắn: 'faster than' (nhanh hơn)."
+        },
+        {
+          "blankId": 3,
+          "contextBefore": "",
+          "targetWord": "On the other hand",
+          "contextAfter": ", many first-generation Asian American parents fail to adapt to the new culture.",
+          "options": [
+            "A. For example",
+            "B. In addition",
+            "C. On the other hand",
+            "D. Because of"
+          ],
+          "correct": 2,
+          "explain": "'On the other hand' (Mặt khác) dùng để nêu lên một khía cạnh đối lập giữa cha mẹ và con cái."
+        },
+        {
+          "blankId": 4,
+          "contextBefore": "They keep practising their traditional lifestyle and old ",
+          "targetWord": "culture",
+          "contextAfter": ".",
+          "options": [
+            "A. culture",
+            "B. cultural",
+            "C. culturally",
+            "D. cultured"
+          ],
+          "correct": 0,
+          "explain": "Đứng sau tính từ 'old' cần một danh từ: 'old culture' (nền văn hóa cũ)."
+        },
+        {
+          "blankId": 5,
+          "contextBefore": "They often try to force their children ",
+          "targetWord": "to follow",
+          "contextAfter": " their native country's cultural values.",
+          "options": [
+            "A. follow",
+            "B. following",
+            "C. to follow",
+            "D. followed"
+          ],
+          "correct": 2,
+          "explain": "Cấu trúc ngữ pháp: 'force somebody + TO DO something' = ép buộc ai làm gì."
+        },
+        {
+          "blankId": 6,
+          "contextBefore": "",
+          "targetWord": "Due to",
+          "contextAfter": " their different attitudes to the new culture, Asian American children may have different cultural values.",
+          "options": [
+            "A. Because",
+            "B. Due to",
+            "C. Despite",
+            "D. Although"
+          ],
+          "correct": 1,
+          "explain": "'Due to + Noun phrase' (Bởi vì cụm danh từ 'their different attitudes...'). 'Because' phải đi với mệnh đề S + V."
+        }
+      ],
+      "clozeLong": [
+        {
+          "blankId": "A",
+          "position": "Đoạn 2 (Sự hòa nhập của con cái)",
+          "contextBefore": "Naturally, children of Asian American immigrants adapt to American culture much faster than their parents. [ ... ] They also start to follow American traditions in their daily lives.",
+          "target": "They accept American values such as individualism, freedom, honesty, and competition.",
+          "options": [
+            "A. They reject all modern English literature and refuse to talk to school teachers.",
+            "B. They accept American values such as individualism, freedom, honesty, and competition.",
+            "C. Asian children immediately isolate themselves completely from American society.",
+            "D. Parents strictly prevent their children from acquiring any foreign spoken language."
+          ],
+          "correct": 1,
+          "explain": "Câu B nêu chi tiết các giá trị Mỹ mà con cái tiếp nhận (individualism, freedom, honesty, competition)."
+        },
+        {
+          "blankId": "B",
+          "position": "Đoạn 3 (Khó khăn hòa nhập của cha mẹ)",
+          "contextBefore": "On the other hand, many first-generation Asian American parents fail to adapt to the new culture. They continue to use their native language. [ ... ] They often try to force their children to follow their native country's cultural values.",
+          "target": "They keep practising their traditional lifestyle and old culture.",
+          "options": [
+            "A. They immediately abandon their ancestry and adopt western clothing overnight.",
+            "B. They keep practising their traditional lifestyle and old culture.",
+            "C. Most elderly parents become professional American baseball players.",
+            "D. They prohibit their own relatives from speaking their homeland tongue."
+          ],
+          "correct": 1,
+          "explain": "Câu B thể hiện sự gắn bó của cha mẹ với lối sống và văn hóa quê hương, dẫn tới mâu thuẫn thế hệ."
+        }
+      ],
+      "readingComprehension": [
+        {
+          "question": "What factor makes the generation gap in Asian American families wider than in most other cultures?",
+          "options": [
+            "A. Differences in dietary intake and musical instruments.",
+            "B. The process of adapting to American culture at different speeds.",
+            "C. High costs of attending universities in large cities.",
+            "D. Conflict regarding which sports team to support on television."
+          ],
+          "correct": 1,
+          "explain": "Dẫn chứng đoạn 1: 'In Asian American families, however, the process of adapting to American culture makes the generation gap wider.'"
+        },
+        {
+          "question": "Which of the following values are commonly embraced by children of immigrants?",
+          "options": [
+            "A. Extreme obedience and strict silence in community meetings.",
+            "B. Individualism, freedom, honesty, and competition.",
+            "C. Refusal to study in standard English-speaking classrooms.",
+            "D. Traditional farming techniques from rural villages."
+          ],
+          "correct": 1,
+          "explain": "Dẫn chứng đoạn 2: 'They accept American values such as individualism, freedom, honesty, and competition.'"
+        },
+        {
+          "question": "The word 'elders' in paragraph 3 refers to:",
+          "options": [
+            "A. younger siblings",
+            "B. older people / senior family members",
+            "C. school headmasters",
+            "D. foreign visitors"
+          ],
+          "correct": 1,
+          "explain": "'the elders' = những người lớn tuổi, bậc cao niên trong gia đình và dòng họ."
+        }
+      ],
+      "sentenceOrdering": [
+        {
+          "task": "Sắp xếp 4 luận điểm về sự bất đồng văn hóa trong gia đình gốc Á:",
+          "sentences": [
+            {
+              "id": "a",
+              "text": "This difference in adaptation rates leads to contrasting cultural values."
+            },
+            {
+              "id": "b",
+              "text": "Meanwhile, immigrant parents tend to preserve traditional homeland customs."
+            },
+            {
+              "id": "c",
+              "text": "Consequently, Asian American parents may struggle to make their children follow family traditions."
+            },
+            {
+              "id": "d",
+              "text": "Children quickly absorb American values and speak fluent English."
+            }
+          ],
+          "correctOrder": "d - b - a - c",
+          "explain": "Trình tự: d (Con cái hòa nhập nhanh) -> b (Cha mẹ giữ truyền thống cũ) -> a (Dẫn đến giá trị văn hóa khác biệt) -> c (Hệ quả: khó bắt con theo truyền thống gia đình)."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "unit": "Unit 3: Cities of the Future",
+      "title": "Cities of the Future: Smart and Sustainable",
+      "readingTitle": "Thành phố tương lai: Thông minh và Bền vững",
+      "originalText": "By 2050 the world's population is expected to reach 10 billion, and nearly 70 per cent of these people will live in cities. The cities of the future will be 'smarter' and more sustainable to cope with a growing population and improve people's lives.\n\nA smart city is a modern urban area that uses a range of technologies to provide services, solve problems, and support people better. The new technologies can help save time by predicting changes in the traffic and warning people of possible traffic jams. They will also help cities operate more efficiently. For example, street lights can turn off when the streets are empty, and sensors can inform waste collection teams when the bins are full. These smart technologies will help save energy, reduce air pollution, and fight climate change.\n\nCities in the future will also be sustainable. They will include a lot of green space and become home to more plants and animals. Making room for biodiversity and nature can be done in various ways including underground and rooftop farming, green roofs, and roof gardens. As people will care more about the environment, most cities will use renewable and clean energy. Modern infrastructure will also be more eco-friendly. Computer-controlled transport systems like electric buses and trains will produce less greenhouse gas emissions. In addition, more pedestrian zones for walking and cycle paths will be made available for people in all neighbourhoods.\n\nThese features will make future cities more liveable and will provide a high quality of life to city dwellers.",
+      "vietnameseText": "Đến năm 2050, dân số thế giới dự kiến sẽ đạt 10 tỷ người, và gần 70% số người này sẽ sống ở các thành phố. Các thành phố trong tương lai sẽ 'thông minh hơn' và 'bền vững hơn' để đối phó với sự gia tăng dân số và nâng cao chất lượng cuộc sống con người.\n\nMột thành phố thông minh là một đô thị hiện đại sử dụng hàng loạt công nghệ để cung cấp dịch vụ, giải quyết vấn đề và hỗ trợ người dân tốt hơn. Các công nghệ mới có thể giúp tiết kiệm thời gian bằng cách dự đoán những thay đổi của giao thông và cảnh báo cho người dân về nguy cơ tắc đường. Chúng cũng sẽ giúp thành phố vận hành hiệu quả hơn. Ví dụ, đèn đường có thể tự tắt khi đường phố vắng người, và các cảm biến có thể thông báo cho đội thu gom rác khi thùng rác đã đầy. Những công nghệ thông minh này sẽ giúp tiết kiệm năng lượng, giảm ô nhiễm không khí và chống lại biến đổi khí hậu.\n\nCác thành phố trong tương lai cũng sẽ phát triển bền vững. Chúng sẽ có rất nhiều không gian xanh và trở thành nơi sinh sống cho nhiều loài động thực vật hơn. Việc dành không gian cho đa dạng sinh học và tự nhiên có thể được thực hiện bằng nhiều cách, bao gồm canh tác dưới lòng đất và trên tầng thượng, mái nhà phủ cây xanh và vườn trên mái. Khi mọi người quan tâm nhiều hơn đến môi trường, hầu hết các thành phố sẽ sử dụng năng lượng sạch và tái tạo. Cơ sở hạ tầng hiện đại cũng sẽ thân thiện hơn với môi trường. Hệ thống giao thông điều khiển bằng máy tính như xe buýt điện và tàu điện sẽ thải ra ít khí nhà kính hơn. Ngoài ra, nhiều phố đi bộ và đường dành riêng cho xe đạp sẽ được mở ra ở khắp các khu dân cư.\n\nNhững đặc điểm này sẽ biến các thành phố tương lai trở nên đáng sống hơn và đem lại chất lượng sống tuyệt vời cho cư dân đô thị.",
+      "keyVocab": [
+        {
+          "word": "Cope with",
+          "type": "v.phr",
+          "meaning": "Đối phó, xử lý, đương đầu với",
+          "example": "To cope with a growing population."
+        },
+        {
+          "word": "Operate more efficiently",
+          "type": "colloc",
+          "meaning": "Vận hành hiệu quả hơn",
+          "example": "Help cities operate more efficiently."
+        },
+        {
+          "word": "Sensors",
+          "type": "n",
+          "meaning": "Các cảm biến (ánh sáng, nhiệt, độ đầy)",
+          "example": "Sensors can inform waste collection teams."
+        },
+        {
+          "word": "Making room for",
+          "type": "idiom",
+          "meaning": "Dành chỗ, tạo không gian cho cái gì",
+          "example": "Making room for biodiversity and nature."
+        },
+        {
+          "word": "Biodiversity",
+          "type": "n",
+          "meaning": "Đa dạng sinh học",
+          "example": "Making room for biodiversity."
+        },
+        {
+          "word": "Pedestrian zones",
+          "type": "n.phr",
+          "meaning": "Khu vực / phố đi bộ",
+          "example": "More pedestrian zones for walking and cycle paths."
+        },
+        {
+          "word": "Liveable",
+          "type": "adj",
+          "meaning": "Đáng sống (thành phố tiện nghi, môi trường tốt)",
+          "example": "Make future cities more liveable."
+        },
+        {
+          "word": "City dwellers",
+          "type": "n.phr",
+          "meaning": "Cư dân đô thị",
+          "example": "Provide a high quality of life to city dwellers."
+        }
+      ],
+      "clozeShort": [
+        {
+          "blankId": 1,
+          "contextBefore": "The cities of the future will be 'smarter' and more sustainable to cope ",
+          "targetWord": "with",
+          "contextAfter": " a growing population.",
+          "options": [
+            "A. for",
+            "B. with",
+            "C. on",
+            "D. about"
+          ],
+          "correct": 1,
+          "explain": "Cụm động từ cố định: 'cope with something' = đương đầu, đối phó giải quyết vấn đề gì."
+        },
+        {
+          "blankId": 2,
+          "contextBefore": "They will also help cities operate more ",
+          "targetWord": "efficiently",
+          "contextAfter": ". For example, street lights can turn off when the streets are empty.",
+          "options": [
+            "A. efficient",
+            "B. efficiently",
+            "C. efficiency",
+            "D. inefficiencies"
+          ],
+          "correct": 1,
+          "explain": "Bổ nghĩa cho động từ thường 'operate' cần dùng một trạng từ: 'operate efficiently' (vận hành hiệu quả)."
+        },
+        {
+          "blankId": 3,
+          "contextBefore": "Making room for ",
+          "targetWord": "biodiversity",
+          "contextAfter": " and nature can be done in various ways including green roofs.",
+          "options": [
+            "A. biodiversity",
+            "B. deforestation",
+            "C. congestion",
+            "D. contamination"
+          ],
+          "correct": 0,
+          "explain": "'biodiversity' (sự đa dạng sinh học). 'Making room for biodiversity' = nhường/tạo không gian cho sự phát triển của tự nhiên và đa dạng sinh học."
+        },
+        {
+          "blankId": 4,
+          "contextBefore": "As people will care more about the environment, most cities will use ",
+          "targetWord": "renewable",
+          "contextAfter": " and clean energy.",
+          "options": [
+            "A. destructive",
+            "B. limited",
+            "C. renewable",
+            "D. exhausted"
+          ],
+          "correct": 2,
+          "explain": "Tính từ ghép với energy: 'renewable energy' = năng lượng tái tạo (mặt trời, gió,...)."
+        },
+        {
+          "blankId": 5,
+          "contextBefore": "More pedestrian ",
+          "targetWord": "zones",
+          "contextAfter": " for walking and cycle paths will be made available.",
+          "options": [
+            "A. spots",
+            "B. zones",
+            "C. fences",
+            "D. corners"
+          ],
+          "correct": 1,
+          "explain": "Thuật ngữ quy hoạch đô thị: 'pedestrian zones' = khu vực/phố đi bộ."
+        },
+        {
+          "blankId": 6,
+          "contextBefore": "These features will make future cities more ",
+          "targetWord": "liveable",
+          "contextAfter": " and provide a high quality of life to city dwellers.",
+          "options": [
+            "A. live",
+            "B. liveable",
+            "C. living",
+            "D. lively"
+          ],
+          "correct": 1,
+          "explain": "Cấu trúc: 'make sth + adjective'. 'Liveable' = đáng sống, phù hợp để an cư lâu dài."
+        }
+      ],
+      "clozeLong": [
+        {
+          "blankId": "A",
+          "position": "Đoạn 2 (Cách công nghệ thông minh vận hành)",
+          "contextBefore": "The new technologies can help save time by predicting changes in the traffic and warning people of possible traffic jams. [ ... ] These smart technologies will help save energy, reduce air pollution, and fight climate change.",
+          "target": "For example, street lights can turn off when the streets are empty, and sensors can inform waste collection teams when the bins are full.",
+          "options": [
+            "A. However, power grids will completely shut down as soon as rain begins to fall.",
+            "B. For example, street lights can turn off when the streets are empty, and sensors can inform waste collection teams when the bins are full.",
+            "C. Consequently, citizens will be entirely banned from using motorized bicycles.",
+            "D. Therefore, people will no longer be allowed to leave their apartments during weekdays."
+          ],
+          "correct": 1,
+          "explain": "Câu B đưa ra ví dụ minh họa cụ thể cho việc công nghệ giúp thành phố vận hành hiệu quả hơn: đèn đường tự tắt khi đường vắng và cảm biến báo rác đầy."
+        },
+        {
+          "blankId": "B",
+          "position": "Đoạn 3 (Giao thông xanh trong tương lai)",
+          "contextBefore": "Modern infrastructure will also be more eco-friendly. [ ... ] These features will make future cities more liveable.",
+          "target": "Computer-controlled transport systems like electric buses and trains will produce less greenhouse gas emissions. In addition, more pedestrian zones for walking and cycle paths will be made available for people in all neighbourhoods.",
+          "options": [
+            "A. Fossil fuel consumption by old diesel trucks will increase ten times to boost heavy manufacturing.",
+            "B. Computer-controlled transport systems like electric buses and trains will produce less greenhouse gas emissions. In addition, more pedestrian zones for walking and cycle paths will be made available for people in all neighbourhoods.",
+            "C. Trees and public parks will be replaced by concrete parking lots to accommodate cars.",
+            "D. Private aircraft will completely replace public transport on all domestic routes."
+          ],
+          "correct": 1,
+          "explain": "Câu B nối tiếp ý cơ sở hạ tầng thân thiện với môi trường: hệ thống xe buýt điện, tàu điện và các tuyến phố đi bộ, đường xe đạp."
+        }
+      ],
+      "readingComprehension": [
+        {
+          "question": "What proportion of the global population is projected to inhabit cities by 2050?",
+          "options": [
+            "A. Approximately 30 per cent",
+            "B. Exactly 50 per cent",
+            "C. Nearly 70 per cent",
+            "D. 100 per cent"
+          ],
+          "correct": 2,
+          "explain": "Dẫn chứng câu đầu tiên: 'By 2050 the world's population is expected to reach 10 billion, and nearly 70 per cent of these people will live in cities.'"
+        },
+        {
+          "question": "How do sensors in smart cities contribute to municipal efficiency?",
+          "options": [
+            "A. By alerting waste disposal crews whenever public trash cans reach capacity.",
+            "B. By detecting speeding motorists and immediately issuing electronic fines.",
+            "C. By spraying pesticide over residential garden plots automatically.",
+            "D. By broadcasting classical radio music across underground metro platforms."
+          ],
+          "correct": 0,
+          "explain": "Dẫn chứng: '...and sensors can inform waste collection teams when the bins are full.'"
+        },
+        {
+          "question": "Which of the following is NOT listed as a method for fostering urban biodiversity?",
+          "options": [
+            "A. Rooftop farming",
+            "B. Green roofs and roof gardens",
+            "C. Underground agriculture",
+            "D. Constructing coal-fired thermal power stations in central parks"
+          ],
+          "correct": 3,
+          "explain": "Bài đọc liệt kê: underground and rooftop farming, green roofs, and roof gardens. Việc xây nhà máy nhiệt điện than là phương án sai/tiêu cực."
+        },
+        {
+          "question": "The word 'dwellers' in the final sentence is closest in meaning to:",
+          "options": [
+            "A. tourists",
+            "B. residents",
+            "C. architects",
+            "D. politicians"
+          ],
+          "correct": 1,
+          "explain": "'city dwellers' = cư dân thành phố = city residents."
+        }
+      ],
+      "sentenceOrdering": [
+        {
+          "task": "Sắp xếp 4 ý về các tiêu chí của thành phố tương lai:",
+          "sentences": [
+            {
+              "id": "a",
+              "text": "Sustainable elements like rooftop farming and renewable energy protect nature."
+            },
+            {
+              "id": "b",
+              "text": "By 2050, surging urban populations require smarter, greener city designs."
+            },
+            {
+              "id": "c",
+              "text": "These harmonized features deliver a truly liveable environment for city dwellers."
+            },
+            {
+              "id": "d",
+              "text": "Smart IoT sensors and traffic predictions optimize daily urban operations."
+            }
+          ],
+          "correctOrder": "b - d - a - c",
+          "explain": "Trình tự mạch văn: b (Bối cảnh 2050 dân số đông) -> d (Giải pháp thành phố thông minh) -> a (Giải pháp thành phố bền vững) -> c (Kết quả: thành phố đáng sống cho cư dân)."
+        }
+      ]
+    }
+  ]
+}
